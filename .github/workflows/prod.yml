@@ -3,10 +3,10 @@ name: Build Containers for Prod & Push to Dockerhub
 on:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy-back:
